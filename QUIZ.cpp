@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-		/*-------------------QUIZ--------------------------*/
-	float first, second, third, midtrem, final, total, total1 ;
+		/*-------------QUIZ----------------*/
+	float first, second, third, midterm, final, total, total1 ;
 		cout << "==========QUIZZES===============" << endl;
 		cout << "Enter first quizz (10) : ";
 		cin >> first;
@@ -12,26 +12,24 @@ int main()
 		cout << "Enter third quizz (10) : ";
 		cin >> third;
 		
-		/*-------------------MIDTERM--------------------------*/
+		/*-------------MIDTERM----------------*/
 		cout << "==========MID-TERM==============" << endl;
 		cout << "Enter mid-term (40) : ";
-		cin >> midtrem;
+		cin >> midterm;
 
-		/*-------------------FINAL--------------------------*/
+		/*-------------FINAL----------------*/
 		cout << "===========FINAL================" << endl;
 		cout << "Enter final (50) : ";
 		cin >> final;
 
-		/*-------------------SUM--------------------------*/
-		//Sum of quizzes
+		/*-------------Sum of quizzes----------------*/
 		total = (first + second + third) / 3;
 		cout << "Quizzes Total : " << total << endl;
-		cout << "Mid term : " << midtrem << endl;
+		cout << "Mid term : " << midterm << endl;
 		cout << "Final : " << final << endl;
 
-		/*-------------------TOTAL--------------------------*/
-		//Total
-		total1 = midtrem + final + total;
+		/*-----------------Total---------------------*/
+		total1 = midterm + final + total;
 		cout << "Total : " << total1 << endl;
 
 		if (total1 >= 50){
