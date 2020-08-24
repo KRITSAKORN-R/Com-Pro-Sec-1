@@ -34,12 +34,6 @@ int main()
 		total1 = midterm + final + total;
 		cout << "Total : " << total1 << endl;
 
-		/**if (total1 >= 50){
-			cout << "You score is PASS" << endl;
-		} else {
-			cout << "You score is NOT PASSED" << endl;
-		}**/
-
 		pass_fail = (total1 >= 50) ? "Pass" : "Fail" ;
 		cout << "You score is : " << pass_fail << endl;
 	return 0;
